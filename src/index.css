@@ -99,6 +99,12 @@ button:hover {
   background-color: #0056b3;
 }
 
+.login-disclaimer {
+  font-size: 0.875rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
 @media (max-width: 480px) {
   .todo-title {
     font-size: 1.5rem;

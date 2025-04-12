@@ -25,6 +25,7 @@ function LoginPage() {
   return (
     <div className="login-page">
       <h2>Login</h2>
+      <p className="login-disclaimer">This is a mock authentication. Please use <strong>admin</strong> as both username and password to log in.</p>
       <input
         type="text"
         name="username"
