@@ -28,14 +28,14 @@ function LoginPage() {
       <input
         type="text"
         name="username"
-        placeholder="Username"
+        placeholder="Username (e.g. admin)"
         value={credentials.username}
         onChange={handleChange}
       />
       <input
         type="password"
         name="password"
-        placeholder="Password"
+        placeholder="Password (e.g. admin)"
         value={credentials.password}
         onChange={handleChange}
       />
